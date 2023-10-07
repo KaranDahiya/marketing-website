@@ -1,0 +1,81 @@
+* {
+    font-family: 'Work Sans', sans-serif!important;
+    color: #B09B96;
+}
+
+a {
+    color: #B09B96!important;
+}
+
+body {
+    overflow-x: hidden;
+    background-color: black;
+}
+
+.landing-content {
+    min-height: 100vh;
+}
+
+.section {
+    min-height: 50vh;
+    width: 100%;
+}
+
+.bg-transluscent {
+    background-color: #b09b9662!important;
+    color: whitesmoke!important;
+    font-weight: 300;
+}
+
+.border-top {
+    border-color: #B09B96!important;
+}
+
+.showcase {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px 4px rgba(174, 193, 133, 0.5);
+    -webkit-box-shadow: 2px 4px 4px rgba(174, 193, 133, 0.5);
+    -moz-box-shadow: 2px 4px 4px 4px rgba(174, 193, 133, 0.5);
+}
+
+.showcontainer {
+    padding-left: 50px!important;
+    padding-right: 50px!important;
+}
+
+.blackbox {
+    background-color: black; 
+    border-radius: 13px; 
+    border-color: gray; 
+    border-width: 1.5px;
+    border-style: solid;
+    width: 180px; 
+    height: 65px; 
+    margin: 15px;
+}
+
+.comingsoon {
+    color: #FFFFFF!important;
+    font-size: 12px;
+}
+
+.appstore {
+    color: #FFFFFF!important;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.btn-brown {
+    background-color: #B09B96;
+}
+
+.btn-brown:hover {
+    background-color: beige;
+}
+
+@media (max-width: 800px) {
+    .showcontainer {
+        padding: 10px!important;
+    }
+}
