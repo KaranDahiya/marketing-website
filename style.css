@@ -1,34 +1,26 @@
-* {
-    font-family: 'Work Sans', sans-serif!important;
-    color: #B09B96;
+*, *:visited {
+    color: #2E361C!important;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 2em;
 }
 
-a {
-    color: #B09B96!important;
+.bg-custom {
+    background-color: #EEF1E4;
 }
 
 body {
-    overflow-x: hidden;
-    background-color: black;
+    background-color: #EEF1E4;
 }
 
-.landing-content {
-    min-height: 100vh;
+.name {
+    letter-spacing: 0.15em;
+    font-weight: 700;
 }
 
-.section {
-    min-height: 50vh;
-    width: 100%;
-}
-
-.bg-transluscent {
-    background-color: #b09b9662!important;
-    color: whitesmoke!important;
-    font-weight: 300;
-}
-
-.border-top {
-    border-color: #B09B96!important;
+.nav-link:hover, .navbar-brand:hover, a:hover {
+    color: #AEC185!important;
+    cursor: pointer!important;
+    text-decoration: none!important;
 }
 
 .showcase {
@@ -39,9 +31,46 @@ body {
     -moz-box-shadow: 2px 4px 4px 4px rgba(174, 193, 133, 0.5);
 }
 
+#landing-img {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.show-img {
+    border-radius: 10px 10px 4px 4px;
+    background-color: white;
+    display: block;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-img {
+    border-radius: 10px 10px 4px 4px;
+    background-color: #EEF1E4;
+    border-color: #EEF1E4;
+    border-width: 1px;
+    border-style: solid;
+    display: block;
+    object-fit: contain;
+    width: 500px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .showcontainer {
-    padding-left: 50px!important;
-    padding-right: 50px!important;
+    padding: 50px!important;
+}
+
+.projectName {
+    font-weight: 700;
+}
+
+.projectDesc {
+    font-style: italic;
 }
 
 .blackbox {
@@ -50,31 +79,35 @@ body {
     border-color: gray; 
     border-width: 1.5px;
     border-style: solid;
-    width: 180px; 
+    width: 200px; 
     height: 65px; 
     margin: 15px;
 }
 
 .comingsoon {
     color: #FFFFFF!important;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
     font-size: 12px;
 }
 
 .appstore {
     color: #FFFFFF!important;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
     font-size: 24px;
-    line-height: 1;
+    line-height: 0.5;
 }
 
-.btn-brown {
-    background-color: #B09B96;
-}
-
-.btn-brown:hover {
-    background-color: beige;
+#landing {
+    min-height: 100vh;
 }
 
 @media (max-width: 800px) {
+    .landing-content {
+      text-align: center!important;
+    }
+
     .showcontainer {
         padding: 10px!important;
     }

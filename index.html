@@ -1,188 +1,463 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>KSpace</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- Bootstrap -->
 
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-  <!-- Font: Work Sans -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
+    <!-- Animate On Scroll -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- FontAwesome Icons -->
+
+    <script src="https://kit.fontawesome.com/e84f129e71.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <!-- my CSS -->
+
+    <link rel="stylesheet" href="style.css">
+    <title>Karan's Portfolio</title>
 </head>
 
 <body>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-    crossorigin="anonymous"></script>
+    <!-- bootstrap and masonry -->
 
-  <!-- Navigation Bar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
 
-  <nav class="navbar navbar-expand-sm navbar-light bg-custom">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#home">KSpace</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact/Support</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <!-- navigation bar -->
 
-  <!-- landing -->
-
-  <div class="container" id="home">
-    <div class="row align-items-center">
-      <div class="col-md-12 landing-content d-flex justify-content-center text-center">
-        <img id="landing-img" class="img-fluid" src="images/logo.svg" width="60%" alt="logo">
-      </div>
-    </div>
-  </div>
-
-  <!-- about -->
-
-  <div class="container-fluid" id="about">
-    <div class="row m-4 p-3 align-items-center">
-      <div class="col-md-12">
-        <h1>About Us</h1>
-      </div>
-    </div>
-    <div class="row m-4 p-3 align-items-top">
-      <div class="col-md-12">
-        <p class="py-4">Welcome to our app development studio, where creativity meets expertise. We are a team of
-          passionate
-          developers who founded this company while attending the University of Waterloo. Our mission is to bring our
-          own creative vision for software applications to fruition, while also helping others build their own
-          ideas.
-          <br><br>
-          We believe that everyone has the potential to create something amazing with the right tools and support.
-          That's why we're here - to provide the resources and expertise necessary to turn your app ideas into reality.
-          From ideation to development and deployment, we offer a complete range of services that ensure your app is
-          delivered on time, within budget, and to the highest standards of quality.
-          <br><br>
-          Our core values guide everything we do. We believe in integrity, optimism, and ingenuity. We operate with the
-          highest level of integrity, always putting our clients' needs first. We approach every project with a positive
-          attitude, knowing that we can achieve great things together. And we thrive on ingenuity, finding creative
-          solutions to complex problems.
-          <br><br>
-          We have many exciting projects in the pipeline, ranging from mobile apps to web applications. Our team has the
-          skills and experience to bring any idea to life. We take pride in our work and ensure that every app we
-          develop is polished, user-friendly, and innovative.
-          <br><br>
-          Thank you for visiting our website. We're excited to work with you and turn your app ideas into reality. Let's
-          create something amazing together!
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <!-- portfolio -->
-
-  <div class="container-fluid" id="portfolio">
-    <div class="row m-4 p-3 align-items-center">
-      <div class="col-md-12">
-        <h1>Portfolio</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="container-fluid showcontainer">
-    <div class="row">
-
-      <!-- guru reader -->
-
-      <div class="col-12 py-3">
-        <div class="showcase p-4" data-aos="fade-up">
-          <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
-              <video width="250" height="500" controls autoplay muted loop>
-                <source src="images/gr-darkscreen.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
+    <nav class="navbar navbar-expand-sm navbar-light bg-custom">
+        <div class="container-fluid">
+            <a onclick="scrollToLanding()" class="navbar-brand">portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a onclick="scrollToWork()" class="nav-link">work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="scrollToProjects()" class="nav-link">projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/resume-W2023.pdf" target="_blank">resume</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="scrollToAbout()" class="nav-link">about</a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
-              <video width="250" height="500" controls autoplay muted loop>
-                <source src="images/gr-lightscreen.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="col-lg-6 col-md-12 col-sm-12 py-3">
-              <h4 class="projectName">Guru Reader (in progress)</h4>
-              <p class="projectDesc">iOS app for reading, highlighting, and reflecting on Sikh
-                spiritual
-                scripture</p>
-              <strong>Languages and Tools</strong>
-              <ul>
-                <li>Designed in <strong>Figma</strong>
-                </li>
-                <li>UI created in <strong>Swift</strong> using <strong>programmatic UIKit</strong>
-                </li>
-                <li>Stores user highlights in <strong>Core Data</strong></li>
-              </ul>
-              <div class="blackbox text-center py-2">
-                <p class="comingsoon">Coming soon on the<br><span class="appstore">App
-                    Store</span></p>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </div>
+    </nav>
 
-  <!-- contact -->
+    <!-- content -->
 
-  <div class="container-fluid" id="contact">
-    <div class="row m-4 p-3 align-items-center">
-      <div class="col-md-12">
-        <h1>Contact/Support</h1>
-      </div>
-    </div>
-    <div class="row mx-4 px-3 align-items-center">
-      <div class="col-md-12">
-        <p>Are you a client looking for help in creating your next big project? Or a user looking for assistance with one of our apps? Please reach out to us by filling out the form below, we'd be happy to assist you!</p>
-      </div>
-    </div>
-    <div class="row m-4 p-3 align-items-center">
-      <div class="col-md-12 section d-flex align-items-center justify-content-center">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdNtbfVmbEwlM5btgXxzSh6noXKXqqkFtT93h7YBrbs2l-a6A/viewform?embedded=true" width="640" height="991" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
-    </div>
-  </div>
+    <main>
 
-  <!-- footer -->
-  <div class="container-fluid footer">
-    <footer class="row p-3 m-4 border-top">
-      <div class="col-12 text-center">
-        <p>&copy; 2023, KSpace Studios</p>
-      </div>
+        <!-- landing -->
+
+        <div class="container">
+            <div class="row align-items-center" id="landing">
+                <div class="col-md landing-content" style="text-align: right;" data-aos="fade-right">
+                    <img id="landing-img" class="img-fluid" src="assets/skull.svg" width="400px" alt="logo">
+                </div>
+                <div class="col-md landing-content" style="text-align: left;" data-aos="fade-left">
+                    <h1 style="font-size: 64px;">Karan Dahiya</h1>
+                    <h4>engineering.<br>development.<br>design.</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROFESSIONAL -->
+
+        <div class="container mt-5" id="work">
+            <div class="row">
+                <div class="col" data-aos="fade-up">
+                    <h1 class="mb-3 about-header">Work Experience</h1>
+                    <h4>
+                        <p>Here are some of the <strong>professional projects</strong> I've worked on.</p>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid showcontainer">
+            <div class="row">
+
+                <!-- faire wholesale -->
+
+                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://www.faire.com/en-ca/" target="_blank">
+                            <img class="img-fluid show-img mb-4" src="assets/faire.png" alt="sketchbook thumbnail">
+                        </a>
+                        <h4 class="projectName">Faire Wholesale</h4>
+                        <p class="projectDesc">Online wholesale marketplace for retailers to shop from independent
+                            brands</p>
+                        <strong>Some of My Contributions</strong>
+                        <ul>
+                            <li>Built custom iOS popover view mechanism in SwiftUI and UIKit to facilitate onboarding
+                                tours
+                            </li>
+                            <li>Integrated third-party SDKs to the iOS app to implement customer satisfaction surveys
+                            </li>
+                            <li>Created dashboards using SQL queries to visualize push notification engagement metrics
+                                across iOS and Android platforms</li>
+                        </ul>
+                        <a href="https://apps.apple.com/us/app/faire-wholesale/id1413340491?itsct=apps_box_badge&amp;itscg=30200"
+                            target="_blank"
+                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 200px; height: auto; margin: 15px"><img
+                                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1534031750"
+                                alt="Download on the App Store"
+                                style="border-radius: 13px; width: 200px; height: auto;"></a>
+                    </div>
+                </div>
+
+                <!-- extend enterprises -->
+
+                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
+                    <div class="showcase p-4 p-4">
+                        <a href="https://www.paywithextend.com/" target="_blank">
+                            <img class="img-fluid show-img mb-4" style="width: 250px; height: 250px;"
+                                src="assets/extend.png" alt="sketchbook thumbnail">
+                        </a>
+                        <h4 class="projectName">Extend</h4>
+                        <p class="projectDesc">Platform to create, distribute, and manage virtual credit cards</p>
+                        <strong>Some of My Contributions</strong>
+                        <ul>
+                            <li>Built new user interface components in UIKit and SwiftUI to increase engagement in
+                                redesigned budget management.</li>
+                            <li>Parallelized API calls made from the iOS app to facilitate load balancing, improving app
+                                performance.</li>
+                            <li>Created new backend API endpoints and modified existing ones in Kotlin and Spring to
+                                serve
+                                client-side needs</li>
+                            <li>Wrote SQL queries and performed data backfilling to restructure the database.</li>
+                        </ul>
+                        <a href="https://apps.apple.com/us/app/extend/id1268034990?itsct=apps_box_badge&amp;itscg=30200"
+                            target="_blank"
+                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 200px; height: auto; margin: 15px"><img
+                                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1502150400"
+                                alt="Download on the App Store"
+                                style="border-radius: 13px; width: 200px; height: auto;"></a>
+                    </div>
+                </div>
+
+                <!-- remitbee app -->
+
+                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://www.remitbee.com/" target="_blank">
+                            <img class="img-fluid show-img mb-4" style="width: 250px; height: 250px;"
+                                src="assets/remitbee.png" alt="sketchbook thumbnail">
+                        </a>
+                        <h4 class="projectName">Remitbee</h4>
+                        <p class="projectDesc">International money transfer and currency exchange service</p>
+                        <strong>Some of My Contributions</strong>
+                        <ul>
+                            <li>Decoupled iOS app's network layer to an independent module, speeding up XCode build
+                                times.
+                            </li>
+                            <li>Created SwiftUI widgets and Siri integration, allowing users to query exchange rates and
+                                initiate money transfers without opening the app.</li>
+                            <li>Built user interface in UIKit and SwiftUI for new currency exchange feature.</li>
+                            <li>Built the web front-end of flagship currency exchange feature using React, Hooks, and
+                                Redux.
+                            </li>
+                            <li>Modified the backend API using Node.js to expose new functionality to client-side
+                                platforms.
+                            </li>
+                        </ul>
+                        <a href="https://apps.apple.com/us/app/remitbee-money-transfer-fx/id983795500?itsct=apps_box_badge&amp;itscg=30200"
+                            target="_blank"
+                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 200px; height: auto; margin: 15px;"><img
+                                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1433721600"
+                                alt="Download on the App Store"
+                                style="border-radius: 13px; width: 200px; height: auto;"></a>
+                    </div>
+                </div>
+
+                <!-- pointclickcare practitioner engagement app -->
+
+                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://pointclickcare.com/" target="_blank">
+                            <img class="img-fluid show-img mb-4" src="assets/pcc.png" alt="sketchbook thumbnail">
+                        </a>
+                        <h4 class="projectName">PointClickCare Practitioner Engagement</h4>
+                        <p class="projectDesc">Mobile app for physicians to access records and coordinate patient care
+                        </p>
+                        <strong>Some of My Contributions</strong>
+                        <ul>
+                            <li>Refactored user interface in parts of the Android app from MVC to MVVM architecture,
+                                increasing scalability.</li>
+                            <li>Conducted meetings to ensure UI/UX consistency between iOS and Android apps.</li>
+                            <li>Modified and created UI components in XML and programmatically.</li>
+                            <li>Fixed bugs in the Android app.</li>
+                        </ul>
+                        <a href='https://play.google.com/store/apps/details?id=com.pointclickcare.peandroid&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
+                            target="_blank"
+                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: auto;"><img
+                                alt='Get it on Google Play'
+                                src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
+                                style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: auto;" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERSONAL -->
+
+        <div class="container mt-5" id="projects">
+            <div class="row">
+                <div class="col" data-aos="fade-up">
+                    <h1 class="mb-3 about-header">Projects</h1>
+                    <h4>
+                        <p>Here are some of <strong>my own creations</strong>.</p>
+                    </h4>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid showcontainer">
+            <div class="row">
+
+                <!-- guru reader -->
+
+                <div class="col-12 py-3">
+                    <div class="showcase p-4" data-aos="fade-up">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" controls autoplay muted loop>
+                                    <source src="assets/gr-darkscreen.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" controls autoplay muted loop>
+                                    <source src="assets/gr-lightscreen.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 py-3">
+                                <h4 class="projectName">Guru Reader (in progress)</h4>
+                                <p class="projectDesc">iOS app for reading, highlighting, and reflecting on Sikh
+                                    spiritual
+                                    scripture</p>
+                                <strong>Languages and Tools</strong>
+                                <ul>
+                                    <li>Designed in <strong>Figma</strong>
+                                    </li>
+                                    <li>UI created in <strong>Swift</strong> using <strong>programmatic UIKit</strong>
+                                    </li>
+                                    <li>Stores user highlights in <strong>Core Data</strong></li>
+                                </ul>
+                                <div class="blackbox">
+                                    <div style="float: left; width: 30%; text-align: right; padding: 15px;">
+                                        <i class="fa-solid fa-clock fa-2xl" style="color: #ffffff!important;"></i>
+                                    </div>
+                                    <div style="float: right; width: 70%; padding: 5px;">
+                                        <p class="comingsoon">Coming soon on the<br><span class="appstore">App
+                                                Store</span></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <!-- philosophy API -->
+
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://philosophy-quotes-api.glitch.me/" target="_blank">
+                            <img class="img-fluid project-img mb-4" src="assets/quotes_screenshot_wide.jpg"
+                                style="width: 500px; height: auto;" alt="philosophy quotes API thumbnail">
+                        </a>
+                        <h4 class="projectName">Philosophy API</h4>
+                        <p class="projectDesc">REST API for retrieving philosophical quotes</p>
+                        <strong>Languages and Tools</strong>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB (NeDB)</li>
+                        </ul>
+                        <a href="https://github.com/KaranDahiya/philosophy-quotes-API" target="_blank">
+                            <i class="fa-brands fa-github-alt fa-2xl"></i>
+                            <strong>Github</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- galahad's quest -->
+
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://editor.p5js.org/KaranDahiya/full/rfJqRJ_Re" target="_blank">
+                            <img class="img-fluid project-img mb-4" src="assets/galahad-quest.gif" alt="galahad-quest thumbnail">
+                        </a>
+                        <h4 class="projectName">Galahad's Quest</h4>
+                        <p class="projectDesc">A short fantasy action RPG browser game</p>
+                        <strong>Languages and Tools</strong>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>P5.js</li>
+                            <li>HTML Canvas</li>
+                            <li>Sprite Animation</li>
+                        </ul>
+                        <a href="https://github.com/KaranDahiya/Galahad-Quest" target="_blank">
+                            <i class="fa-brands fa-github-alt fa-2xl"></i>
+                            <strong>Github</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- lockbox -->
+
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://github.com/KaranDahiya/LockBox33" target="_blank">
+                            <img class="img-fluid project-img mb-4" src="assets/lockbox33-img.png" alt="lockbox thumbnail">
+                        </a>
+                        <h4 class="projectName">Electronic Lockbox</h4>
+                        <p class="projectDesc">Metal lockbox with alarm</p>
+                        <strong>Languages and Tools</strong>
+                        <ul>
+                            <li>C</li>
+                            <li>Embedded System</li>
+                            <li>Raspberry Pi</li>
+                            <li>Real-time State Machine</li>
+                            <li>Watchdog</li>
+                        </ul>
+                        <a href="https://github.com/KaranDahiya/LockBox33" target="_blank">
+                            <i class="fa-brands fa-github-alt fa-2xl"></i>
+                            <strong>Github</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- maze escape -->
+
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://github.com/KaranDahiya/Unity3D-Maze-Escape" target="_blank">
+                            <img class="img-fluid project-img mb-4" src="assets/maze1.PNG" alt="maze game thumbnail">
+                        </a>
+                        <h4 class="projectName">Horror Maze Escape</h4>
+                        <p class="projectDesc">Players must make it to the other side before the monsters find them!</p>
+                        <strong>Languages and Tools</strong>
+                        <ul>
+                            <li>Unity3D</li>
+                            <li>C#</li>
+                        </ul>
+                        <a href="https://github.com/KaranDahiya/Unity3D-Maze-Escape" target="_blank">
+                            <i class="fa-brands fa-github-alt fa-2xl"></i>
+                            <strong>Github</strong>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- sketchbook -->
+
+                <div class="col-lg-4 col-md-6 col-sm-12 py-3" data-aos="fade-up">
+                    <div class="showcase p-4">
+                        <a href="https://karandahiya.github.io/sketchbook" target="_blank">
+                            <img class="img-fluid project-img mb-4" src="assets/sketchbook.png" alt="sketchbook thumbnail">
+                        </a>
+                        <h4 class="projectName">Sketchbook (in repair)</h4>
+                        <p class="projectDesc">A digital sketchbook blog showcasing my progress in learning to draw</p>
+                        <strong>Languages and Tools</strong>
+                        <ul>
+                            <li>Javascript</li>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB (NeDB)</li>
+                            <li>Bootstrap</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                        <a href="https://github.com/KaranDahiya/sketchbook" target="_blank">
+                            <i class="fa-brands fa-github-alt fa-2xl"></i>
+                            <strong>Github</strong>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- about -->
+
+    <footer class="mt-5">
+        <div class="container" id="about">
+
+            <!-- description -->
+
+            <div class="row justify-content-left align-items-center" data-aos="fade-up">
+                <div class="col-lg-6 order-2 order-lg-1">
+                    <h1 class="mb-3 about-header">Hey, I'm Karan.</h1>
+                    <p>I'm a computer engineering graduate from the University of Waterloo. I like to create with code.
+                        Whether it's games, mobile and web applications, or real-world embedded systems, I have an
+                        enthusiasm to build products and work with awesome people.<br><br>Besides tech, I enjoy hitting
+                        the gym, spending time in nature, and goofing around. If you think I'd be a good fit for your
+                        team or project, I'd love to get in touch! (my contact links are below)</p>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center mb-2 d-none d-lg-block">
+                    <img class="img-fluid" src="assets/rib.svg" width="400px" alt="pointing hand">
+                </div>
+            </div>
+            <hr>
+
+            <!-- contact -->
+
+            <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center py-1">
+                <div class="mb-3">© Karan Dahiya 2023</div>
+                <ul class="list-inline">
+                    <li class="list-inline-item">k4dahiya@uwaterloo.ca</li>
+                    <li class="list-inline-item ml-3">
+                        <a href="https://github.com/KaranDahiya/" target="_blank">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://linkedin.com/in/karandahiya/" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://medium.com/@karandahiya2000" target="_blank">
+                            <i class="fa-brands fa-medium"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </footer>
-  </div>
 
+    <!-- my javascript -->
+
+    <script src="main.js"></script>
 </body>
-
 </html>
