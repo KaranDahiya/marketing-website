@@ -8,6 +8,13 @@ function scrollToWork() {
 });
 }
 
+// smooth scroll to MOBILE APPS
+function scrollToApps() {
+  document.querySelector('#mobile').scrollIntoView({ 
+  behavior: 'smooth' 
+});
+}
+
 // smooth scroll to PROJECTS
 function scrollToProjects() {
     document.querySelector('#projects').scrollIntoView({ 

@@ -56,7 +56,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a onclick="scrollToWork()" class="nav-link">work</a>
+                        <a onclick="scrollToApps()" class="nav-link">apps</a>
                     </li>
                     <li class="nav-item">
                         <a onclick="scrollToProjects()" class="nav-link">projects</a>
@@ -87,14 +87,14 @@
             </div>
         </div>
 
-        <!-- PROFESSIONAL -->
+        <!-- MOBILE APPS -->
 
-        <div class="container mt-5" id="work">
+        <div class="container mt-5" id="mobile">
             <div class="row">
                 <div class="col" data-aos="fade-up">
-                    <h1 class="mb-3 about-header">Work Experience</h1>
+                    <h1 class="mb-3 about-header">Mobile Apps</h1>
                     <h4>
-                        <p>Here are some of the <strong>professional projects</strong> I've worked on.</p>
+                        <p>Here are some of <strong>my own creations</strong> published on app stores.</p>
                     </h4>
                 </div>
             </div>
@@ -102,159 +102,116 @@
         <div class="container-fluid showcontainer">
             <div class="row">
 
-                <!-- faire wholesale -->
+                <!-- siva: meditation and mindfulness -->
 
-                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
-                    <div class="showcase p-4">
-                        <a href="https://www.faire.com/en-ca/" target="_blank">
-                            <img class="img-fluid show-img mb-4" src="assets/faire.png" alt="sketchbook thumbnail">
-                        </a>
-                        <h4 class="projectName">Faire Wholesale</h4>
-                        <p class="projectDesc">Online wholesale marketplace for retailers to shop from independent
-                            brands</p>
-                        <strong>Some of My Contributions</strong>
-                        <ul>
-                            <li>Built custom iOS popover view mechanism in SwiftUI and UIKit to facilitate onboarding
-                                tours
-                            </li>
-                            <li>Integrated third-party SDKs to the iOS app to implement customer satisfaction surveys
-                            </li>
-                            <li>Created dashboards using SQL queries to visualize push notification engagement metrics
-                                across iOS and Android platforms</li>
-                        </ul>
-                        <a href="https://apps.apple.com/us/app/faire-wholesale/id1413340491?itsct=apps_box_badge&amp;itscg=30200"
-                            target="_blank"
-                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 200px; height: auto; margin: 15px"><img
-                                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1534031750"
-                                alt="Download on the App Store"
-                                style="border-radius: 13px; width: 200px; height: auto;"></a>
+                <div class="col-12 py-3">
+                    <div class="showcase p-4" data-aos="fade-up">
+                        <div class="row">
+                            <!-- <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" autoplay muted loop>
+                                    <source src="assets/TR-vid1.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" autoplay muted loop>
+                                    <source src="assets/TR-vid2.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div> -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <img class="img-fluid show-img mb-4" src="assets/siva-1.png" alt="guru reader image">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <img class="img-fluid show-img mb-4" src="assets/siva-2.png" alt="guru reader image">
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 py-3">
+                                <h4 class="projectName">Siva: Meditation and Mindfulness</h4>
+                                <p class="projectDesc">[In-progress] Android app for meditation, breathing, and mindfulness.</p>
+                                <strong>Languages and Tools</strong>
+                                <ul>
+                                    <li>Designed in <strong>Figma</strong>
+                                    </li>
+                                    <li>UI created in <strong>Kotlin</strong> using <strong>Jetpack Compose</strong>
+                                    </li>
+                                    <li>Employs <strong>MVVM</strong> architecture</li>
+                                    <li>Using <strong>Room SQLite</strong> for local database storage</li>
+                                </ul>
+                                <img width="300" src="assets/ComingSoonPlaystore.png" alt="Coming soon to Google Play Store">
+                            </div>
+                        </div>
                     </div>
                 </div>
 
-                <!-- extend enterprises -->
+                <!-- training log -->
 
-                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
-                    <div class="showcase p-4 p-4">
-                        <a href="https://www.paywithextend.com/" target="_blank">
-                            <img class="img-fluid show-img mb-4" style="width: 250px; height: 250px;"
-                                src="assets/extend.png" alt="sketchbook thumbnail">
-                        </a>
-                        <h4 class="projectName">Extend</h4>
-                        <p class="projectDesc">Platform to create, distribute, and manage virtual credit cards</p>
-                        <strong>Some of My Contributions</strong>
-                        <ul>
-                            <li>Built new user interface components in UIKit and SwiftUI to increase engagement in
-                                redesigned budget management.</li>
-                            <li>Parallelized API calls made from the iOS app to facilitate load balancing, improving app
-                                performance.</li>
-                            <li>Created new backend API endpoints and modified existing ones in Kotlin and Spring to
-                                serve
-                                client-side needs</li>
-                            <li>Wrote SQL queries and performed data backfilling to restructure the database.</li>
-                        </ul>
-                        <a href="https://apps.apple.com/us/app/extend/id1268034990?itsct=apps_box_badge&amp;itscg=30200"
-                            target="_blank"
-                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 200px; height: auto; margin: 15px"><img
-                                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1502150400"
-                                alt="Download on the App Store"
-                                style="border-radius: 13px; width: 200px; height: auto;"></a>
+                <div class="col-12 py-3">
+                    <div class="showcase p-4" data-aos="fade-up">
+                        <div class="row">
+                            <!-- <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" autoplay muted loop>
+                                    <source src="assets/TR-vid1.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" autoplay muted loop>
+                                    <source src="assets/TR-vid2.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div> -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <img class="img-fluid show-img mb-4" src="assets/TR-logs.png" alt="guru reader image">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <img class="img-fluid show-img mb-4" src="assets/TR-stats.png" alt="guru reader image">
+                            </div>
+                            <div class="col-lg-6 col-md-12 col-sm-12 py-3">
+                                <h4 class="projectName">Training Log</h4>
+                                <p class="projectDesc">iOS app for logging, managing, and analyzing workout training data.</p>
+                                <strong>Languages and Tools</strong>
+                                <ul>
+                                    <li>Designed in <strong>Figma</strong>
+                                    </li>
+                                    <li>UI created in <strong>Swift</strong> using <strong>SwiftUI</strong>
+                                    </li>
+                                    <li>Employs <strong>MVVM</strong> architecture</li>
+                                    <li>Stores data in local <strong>SQLite</strong> database</li>
+                                </ul>
+                                <a href="https://apps.apple.com/us/app/guru-reader/id6450375415?itsct=apps_box_badge&amp;itscg=30200"
+                                    target="_blank"
+                                    style="display: inline-block; overflow: hidden; border-radius: 13px; width: 200px; height: auto; margin: 15px;"><img
+                                    src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1433721600"
+                                    alt="Download on the App Store"
+                                    style="border-radius: 13px; width: 200px; height: auto;">
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <!-- remitbee app -->
-
-                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
-                    <div class="showcase p-4">
-                        <a href="https://www.remitbee.com/" target="_blank">
-                            <img class="img-fluid show-img mb-4" style="width: 250px; height: 250px;"
-                                src="assets/remitbee.png" alt="sketchbook thumbnail">
-                        </a>
-                        <h4 class="projectName">Remitbee</h4>
-                        <p class="projectDesc">International money transfer and currency exchange service</p>
-                        <strong>Some of My Contributions</strong>
-                        <ul>
-                            <li>Decoupled iOS app's network layer to an independent module, speeding up XCode build
-                                times.
-                            </li>
-                            <li>Created SwiftUI widgets and Siri integration, allowing users to query exchange rates and
-                                initiate money transfers without opening the app.</li>
-                            <li>Built user interface in UIKit and SwiftUI for new currency exchange feature.</li>
-                            <li>Built the web front-end of flagship currency exchange feature using React, Hooks, and
-                                Redux.
-                            </li>
-                            <li>Modified the backend API using Node.js to expose new functionality to client-side
-                                platforms.
-                            </li>
-                        </ul>
-                        <a href="https://apps.apple.com/us/app/remitbee-money-transfer-fx/id983795500?itsct=apps_box_badge&amp;itscg=30200"
-                            target="_blank"
-                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 200px; height: auto; margin: 15px;"><img
-                                src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1433721600"
-                                alt="Download on the App Store"
-                                style="border-radius: 13px; width: 200px; height: auto;"></a>
-                    </div>
-                </div>
-
-                <!-- pointclickcare practitioner engagement app -->
-
-                <div class="col-sm-12 col-md-6 col-lg-6 py-3" data-aos="fade-up">
-                    <div class="showcase p-4">
-                        <a href="https://pointclickcare.com/" target="_blank">
-                            <img class="img-fluid show-img mb-4" src="assets/pcc.png" alt="sketchbook thumbnail">
-                        </a>
-                        <h4 class="projectName">PointClickCare Practitioner Engagement</h4>
-                        <p class="projectDesc">Mobile app for physicians to access records and coordinate patient care
-                        </p>
-                        <strong>Some of My Contributions</strong>
-                        <ul>
-                            <li>Refactored user interface in parts of the Android app from MVC to MVVM architecture,
-                                increasing scalability.</li>
-                            <li>Conducted meetings to ensure UI/UX consistency between iOS and Android apps.</li>
-                            <li>Modified and created UI components in XML and programmatically.</li>
-                            <li>Fixed bugs in the Android app.</li>
-                        </ul>
-                        <a href='https://play.google.com/store/apps/details?id=com.pointclickcare.peandroid&hl=en&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'
-                            target="_blank"
-                            style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: auto;"><img
-                                alt='Get it on Google Play'
-                                src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'
-                                style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: auto;" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- PERSONAL -->
-
-        <div class="container mt-5" id="projects">
-            <div class="row">
-                <div class="col" data-aos="fade-up">
-                    <h1 class="mb-3 about-header">Projects</h1>
-                    <h4>
-                        <p>Here are some of <strong>my own creations</strong>.</p>
-                    </h4>
-                </div>
-            </div>
-        </div>
-        <div class="container-fluid showcontainer">
-            <div class="row">
 
                 <!-- guru reader -->
 
                 <div class="col-12 py-3">
                     <div class="showcase p-4" data-aos="fade-up">
                         <div class="row">
-                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
-                                <video width="250" height="500" controls autoplay muted loop>
+                            <!-- <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" autoplay muted loop>
                                     <source src="assets/gr-darkscreen.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
-                            </div>
-                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
-                                <video width="250" height="500" controls autoplay muted loop>
+                            </div> -->
+                            <!-- <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <video width="250" height="500" autoplay muted loop>
                                     <source src="assets/gr-lightscreen.mp4" type="video/mp4">
                                     Your browser does not support the video tag.
                                 </video>
+                            </div> -->
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <img class="img-fluid show-img mb-4" src="assets/gr-reader.png" alt="guru reader image">
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-12 py-3 d-flex justify-content-center">
+                                <img class="img-fluid show-img mb-4" src="assets/gr-dark.png" alt="guru reader image">
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12 py-3">
                                 <h4 class="projectName">Guru Reader</h4>
@@ -267,6 +224,7 @@
                                     </li>
                                     <li>UI created in <strong>Swift</strong> using <strong>programmatic UIKit</strong>
                                     </li>
+                                    <li>Employs <strong>VIPER</strong> architecture</li>
                                     <li>Stores user highlights in <strong>Core Data</strong></li>
                                 </ul>
                                 <a href="https://apps.apple.com/us/app/guru-reader/id6450375415?itsct=apps_box_badge&amp;itscg=30200"
@@ -309,9 +267,22 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
+        </div>
 
-                <!-- philosophy API -->
+        <!-- MISC PROJECTS -->
+
+        <div class="container mt-5" id="projects">
+            <div class="row">
+                <div class="col" data-aos="fade-up">
+                    <h1 class="mb-3 about-header">Other shenanigans</h1>
+                    <h4>
+                        <p>Here are some other miscellaneous projects I've built in the past.</p>
+                    </h4>
+                </div>
+            </div>
+            <div class="container-fluid showcontainer">
+                <div class="row">
+                    <!-- philosophy API -->
 
                 <div class="col-lg-4 col-md-6 col-sm-12 py-3" data-aos="fade-up">
                     <div class="showcase p-4">
@@ -427,6 +398,7 @@
                         </a>
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </main>
@@ -441,7 +413,8 @@
             <div class="row justify-content-left align-items-center" data-aos="fade-up">
                 <div class="col-lg-6 order-2 order-lg-1">
                     <h1 class="mb-3 about-header">Hey, I'm Karan.</h1>
-                    <p>I'm a computer engineering graduate from the University of Waterloo. I like to create with code.
+                    <p>I'm a <strong>software engineer in NYC</strong> and a computer engineering graduate from the <strong>University of Waterloo</strong>.
+                        <br><br>I like to create with code.
                         Whether it's games, mobile and web applications, or real-world embedded systems, I have an
                         enthusiasm to build products and work with awesome people.<br><br>Besides tech, I enjoy hitting
                         the gym, spending time in nature, and goofing around. If you think I'd be a good fit for your
@@ -456,9 +429,9 @@
             <!-- contact -->
 
             <div class="d-flex flex-column flex-sm-row justify-content-sm-between align-items-center py-1">
-                <div class="mb-3">© Karan Dahiya 2023</div>
+                <div class="mb-3">© Karan Dahiya 2024</div>
                 <ul class="list-inline">
-                    <li class="list-inline-item">k4dahiya@uwaterloo.ca</li>
+                    <li class="list-inline-item">dahiya.karan2000@gmail.com</li>
                     <li class="list-inline-item ml-3">
                         <a href="https://github.com/KaranDahiya/" target="_blank">
                             <i class="fa-brands fa-github"></i>
